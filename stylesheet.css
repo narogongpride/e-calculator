@@ -57,8 +57,9 @@ button:hover {
 	background-color: #FF1493;
 }
 
-@media only screen and (min-width: 768px) {
+@media all and (max-width: 670px) {
 	body {
 		background-size: cover;
+		width: 100%;
 	}
 }
